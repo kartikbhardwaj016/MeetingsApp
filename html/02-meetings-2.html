@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit:no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="../css/utils.css"/> -->
+    <title>Home</title>
+
+</head>
+<body>
+
+   
+    <div class="container">
+        <div class="row justify-content-between">
+            <ul class="nav nav-pills ">
+                <li class="nav-item"><a class="nav-link " href="./01-home.html">Calender</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Meetings</a></li>
+                <li class="nav-item"><a class="nav-link " href="#">Teams</a></li>
+        
+            </ul>
+            <div  >
+                <p>Welcome, <span class="text-primary">kartik bhardwaj</span>
+                <a class="text-danger font-weight-light" href="#">Logout</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Meetings</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="nav nav-tabs ">
+                    <li class="nav-item"><a class="nav-link " href="./02-meetings-1.html">Filter/Search Meetings</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Add a meeting</a></li>            
+                </ul>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col">
+                <div class="card bg-info p-3">
+                    <h2 class="text-white">Add a new meeting</h2>
+                    <hr>
+                    <form>
+                        <div class="form-group">
+                            <label>Date</label>
+                            <input type="date" class="form-control">
+
+                        </div>
+                        <div class="form-group">
+                            <label>Start time (hh:mm)</label>
+                            <br>
+                            <input type="number"> :
+                            <input type="number" >
+
+                        </div>
+                        <div class="form-group">
+                            <label>End time (hh:mm)</label>
+                            <br>
+                            <input type="number"> :
+                            <input type="number" >
+
+                        </div>
+
+                        <div class="form-group">
+                            <label>Description</label>
+                            <br>
+                            <textarea  class="form-control"
+                            placeholder="Enter some details about the meeting"
+                            ></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email Id's of attendees or Team's short</label>
+                            <br>
+                            <input class="form-control" type="text" placeholder="Kartik.bhardwaj.in@rupeek.com, rohitass@bits.goa.com">
+                            <small id="emailHelp" class="form-text text-white ">seperate email Ids and team short name with comma- team short names 
+                                always begin with @.</small>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Create Meeting</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+       
+
+        
+        
+       
+
+        
+
+    </div>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
+</body>
+</html>
